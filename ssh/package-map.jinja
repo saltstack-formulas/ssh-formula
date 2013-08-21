@@ -1,9 +1,11 @@
 {% set ssh = salt['grains.filter_by']({
     'Debian': {
+        'service': 'ssh',
         'server': 'openssh-server',
         'client': 'openssh-client',
     },
     'RedHat': {
+        'service': 'sshd',
         'server': 'openssh-server',
         'client': 'openssh',
     },

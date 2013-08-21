@@ -7,3 +7,4 @@ ssh_server:
   service:
     - running
     - enable: True
+    - name: {{ ssh.service }}
