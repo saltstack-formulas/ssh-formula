@@ -9,9 +9,16 @@ Manage an ssh service and configuration.
     <http://docs.saltstack.com/topics/conventions/formulas.html>`_.
 
 Available states
-----------------
+================
+
+.. contents::
+    :local:
 
 ``ssh.client``
+--------------
+
     Installs the ssh client package.
+
 ``ssh.server``
+--------------
     Installs the ssh server package and enable the service.
