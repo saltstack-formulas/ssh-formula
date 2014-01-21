@@ -1,6 +1,12 @@
 ssh
 ===
 
+.. warning::
+
+    This formula is deprecated. Please use https://github.com/saltstack-formulas/openssh-formula instead.
+
+****
+
 Manage an ssh service and configuration.
 
 .. note::
