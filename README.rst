@@ -23,8 +23,9 @@ Available states
 ``ssh.client``
 --------------
 
-    Installs the ssh client package.
+Installs the ssh client package.
 
 ``ssh.server``
 --------------
-    Installs the ssh server package and enable the service.
+
+Installs the ssh server package and enable the service.
